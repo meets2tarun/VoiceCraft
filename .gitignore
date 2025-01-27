@@ -1,0 +1,23 @@
+# Ignore model checkpoints
+*.pth
+*.ckpt
+*.h5
+
+# Ignore dataset and log files
+datasets/ivr/xs
+checkpoints
+logs
+data/Hindi
+hf_cache
+pretrained_models
+*.log
+*.csv  # If necessary
+*.wav
+output_logs
+__pycache__
+.vscode
+wandb
+
+# Ignore large archives
+*.tar.gz
+*.zip
